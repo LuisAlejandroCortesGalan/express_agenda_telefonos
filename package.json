@@ -1,0 +1,11 @@
+{
+  "name": "express-agenda-tel",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AlejandroCortes",
+  "license": "ISC",
+  "description": "agenda de telefono"
+}
