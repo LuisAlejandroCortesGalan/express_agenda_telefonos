@@ -1,0 +1,28 @@
+<%- include('./templates/head.ejs') %>
+
+    <body>
+        <header>
+            <h1>Introduce los datos</h1>
+        </header>
+        <main>
+            <form action="/insert" method="POST">
+                <fieldset>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" name="telefono" id="telefono">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+                    <a href="/">Cancelar</a>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+
+    </html>
